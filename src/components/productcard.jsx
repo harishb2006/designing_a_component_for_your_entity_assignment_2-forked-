@@ -3,8 +3,8 @@ import ViewButton from "./button";
 import pImage from "../assets/download (2).jpeg"
 const Productcard = () => {
 
-  const pName = "Awesome ";
-  const pPrice = "$49.99";
+  const pName = "hp victus";
+  const pPrice = "123$";
 
   return (
     <div className=" p-4 rounded-lg text-center mt-[150px] bg-white">
