@@ -1,6 +1,4 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+
 import './App.css';
 
 import Productcard from './components/productcard.jsx';
@@ -15,7 +13,7 @@ function App() {
   };
 
   return (
-    <div style={gridStyle}>
+    <div style={gridStyle} className='bg-black'>
       {cards.map((_, index) => (
         <Productcard key={index} />
       ))}
